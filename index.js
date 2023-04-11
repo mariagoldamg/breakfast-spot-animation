@@ -1,0 +1,8 @@
+gsap.from ("#logo", {opacity:0, duration:4, delay:0.5})
+gsap.from ("#hours", {opacity:0, duration:2, delay:0.5, y:-500})
+gsap.from (".btn", {opacity:0, duration:2, delay:0.7, rotation: 360})
+gsap.from ("#bottom", {opacity:0, duration:4, delay:2.5})
+gsap.from ("#combo", {y:-500, opacity:0, duration:2, stagger: 1, ease: "power1"})
+gsap.from (".big", {x:-500, opacity:0, duration:2, delay:.5, ease: "power1"})
+gsap.from (".little", {x:500, opacity:0, duration:3, delay:.5, ease: "power1"})
+gsap.from (".map", {x:500, opacity:0, duration:3, delay:.5, ease: "power1"})
